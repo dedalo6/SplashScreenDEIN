@@ -16,7 +16,7 @@
             android:id="@+id/manoSaluda"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/manoSaludando" />
+            android:src="@drawable/manosaludando" />
 
         <TextView
             android:id="@+id/textView"
