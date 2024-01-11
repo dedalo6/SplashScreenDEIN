@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!--    Cuando pongo la imagen usando Desing me quita esto que va dentro del <RelativeLayout-->
+    <!--    xmlns:ANDROID="http://schemas.android.com/apk/res-auto"-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2196F3">
+
+
+        <ImageView
+            android:id="@+id/manoSaluda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/manosaludando" />
+<!--            ANDROID:srcCompat="@drawable/manosaludando"-->
+<!--            No me funciona bien si pongo android, y cuando lo hago por Desing me lo pone asi        -->
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/manoSaluda"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="-194dp"
+            android:layout_marginEnd="50dp"
+            android:text="Esta es tu primera Splash Screen"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

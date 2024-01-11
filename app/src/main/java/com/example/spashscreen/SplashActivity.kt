@@ -9,7 +9,7 @@ import java.util.logging.Handler
 class SplashActivity : AppCompatActivity(){
     override fun onCreate(savedInstanceState: Bundle?){
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_splash)
 
         android.os.Handler(Looper.getMainLooper()).postDelayed({
             val intent = Intent(this@SplashActivity, MainActivity::class.java)
